@@ -1,0 +1,34 @@
+{
+  "name": "search-random-gif",
+  "version": "1.0.0",
+  "description": "A Discord.js v14 bot that allows you to search a random GIF for the term provided using Tenor API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "eslint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discord-bots-v14/Search-Random-GIF.git"
+  },
+  "keywords": [
+    "nodejs",
+    "discord-bot",
+    "random-search-gif",
+    "discordjs-v14"
+  ],
+  "author": "sdanialraza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/discord-bots-v14/Search-Random-GIF/issues"
+  },
+  "homepage": "https://github.com/discord-bots-v14/Search-Random-GIF#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "glob": "^8.1.0",
+    "tenorjs": "^1.0.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
